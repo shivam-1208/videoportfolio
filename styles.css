@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light background */
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #ff6f61, #de5d8c); /* Vibrant gradient */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #ff3d00; /* Accent border */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #ff6f61; /* Vibrant color for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #de5d8c; /* Border color */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.video-container:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
